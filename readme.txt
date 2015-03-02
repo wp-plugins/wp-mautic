@@ -10,20 +10,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin will allow you to add Mautic (Free Open Source Marketing Automation) tracking to your site.
 
-Key features:
+== Description ==
+
+[Mautic](http://mautic.org) http://wordpress.org Plugin inserts Mautic tracking image and forms to the WP website. Your Mautic instance will be able to track information about your visitors that way.
+
+### Key features
 - You don't have to edit source code of your template to insert tracking code.
 - Plugin adds additional information to tracking image URL so you get better results than using just plain HTML code of tracking image.
 - You can use Mautic form embed with shortcode descirbed below.
-
-== Description ==
-
-[Mautic](http://mautic.org) [Wordpress](http://wordpress.org) Plugin inserts Mautic tracking image and forms to the WP website. Your Mautic instance will be able to track information about your visitors that way.
 
 ### Mautic Tracking Image
 
 Tracking image works right after you finish step 5 of Installation above. That means it will insert 1 px gif image loaded from your Mautic instance. You can check HTML source code (CTRL + U) of your WP website to make sure the plugin works. You should be able to find something like this:
 
 `<img src="http://yourmautic.com/mtracking.gif" />`
+
+There will be probably longer URL query string at the end of the tracking image URL. It is encoded additional data about the page (title, url, referrer, language).
 
 ### Mautic Forms
 
