@@ -12,7 +12,7 @@ This plugin will allow you to add Mautic (Free Open Source Marketing Automation)
 
 == Description ==
 
-[Mautic](http://mautic.org) http://wordpress.org Plugin inserts Mautic tracking image and forms to the WP website. Your Mautic instance will be able to track information about your visitors that way.
+[Mautic](http://mautic.org) WordPress Plugin inserts Mautic tracking image and forms to the WP website. Your Mautic instance will be able to track information about your visitors that way.
 
 ### Key features
 - You don't have to edit source code of your template to insert tracking code.
